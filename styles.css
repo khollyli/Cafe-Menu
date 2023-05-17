@@ -1,0 +1,67 @@
+h1, h2, p {
+    text-align: center;
+}
+
+body {
+    background-image: url(file:///D:/Coding%20Programs/Coding%20Projects/beans.jpg);
+    font-family: sans-serif;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    /* This creates space between the words */
+    padding: 20px;
+    /* max-width makes it so that the menu part doesn't extend too much */
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.established {
+    font-style: italic;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.flavour, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+hr {
+    /* 
+        Pre-condition: thin grey line
+        Post-condition: 3px box
+        Edit: changed to 2px
+        because border-width is 1px for all edges of hr elements.
+        By changing the border to he same colour as the background, 
+        the total height of the line is 5px (3px plus the top and bottom border width of 1px).
+        Changed height property to 2px so total height = 4px.
+    */
+    height: 3px;
+    /*  Post-condition: border colour is grey,
+        inside is brown
+    */
+    background-color: brown;
+    border-color: brown;
+}
