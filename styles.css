@@ -5,6 +5,7 @@ h1, h2, p {
 body {
     background-image: url(beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
 }
 
 .menu {
@@ -36,6 +37,9 @@ h1, h2 {
 
 .item p {
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 .flavour, .dessert {
