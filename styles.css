@@ -52,6 +52,14 @@ h1, h2 {
     width: 25%;
 }
 
+/*
+    Puts space between the hr element and
+    the dessert text
+*/
+.bottom-line {
+    margin-top: 25px;
+}
+
 hr {
     /* 
         Pre-condition: thin grey line
@@ -68,4 +76,18 @@ hr {
     */
     background-color: brown;
     border-color: brown;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+
+/* Changes link color */
+a {
+    color: black;
+}
+
+a:visited {
+    color: grey;
 }
